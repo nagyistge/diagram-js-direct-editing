@@ -8,7 +8,7 @@ function DirectEditingProvider(directEditing) {
 DirectEditingProvider.prototype.activate = function(element) {
 
   if (element.label) {
-    return { bounds: element.labelBounds || element, text: element.label };
+    return { bounds: element.labelBounds || element, text: element.label, options: element.options };
   }
 };
 

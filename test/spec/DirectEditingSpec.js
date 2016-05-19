@@ -72,7 +72,8 @@ describe('diagram-js-direct-editing', function() {
         var shapeWithLabel = {
           id: 's1',
           x: 20, y: 10, width: 60, height: 50,
-          label: 'FOO'
+          label: 'FOO',
+          options: {scale : canvas.zoom() + ''}
         };
         canvas.addShape(shapeWithLabel);
 
@@ -95,7 +96,8 @@ describe('diagram-js-direct-editing', function() {
           id: 's1',
           x: 20, y: 10, width: 60, height: 50,
           label: 'FOO',
-          labelBounds: { x: 100, y: 100, width: 50, height: 20 }
+          labelBounds: { x: 100, y: 100, width: 50, height: 20 },
+          options: {scale : canvas.zoom() + ''}
         };
         canvas.addShape(shapeWithLabel);
 
@@ -115,7 +117,8 @@ describe('diagram-js-direct-editing', function() {
         // given
         var shapeNoLabel = {
           id: 's1',
-          x: 20, y: 10, width: 60, height: 50
+          x: 20, y: 10, width: 60, height: 50,
+          options: {scale : canvas.zoom() + ''}
         };
         canvas.addShape(shapeNoLabel);
 
@@ -134,7 +137,8 @@ describe('diagram-js-direct-editing', function() {
         var shapeWithLabel = {
           id: 's1',
           x: 20, y: 10, width: 60, height: 50,
-          label: 'FOO'
+          label: 'FOO',
+          options: {scale : canvas.zoom() + ''}
         };
         canvas.addShape(shapeWithLabel);
 
@@ -158,7 +162,8 @@ describe('diagram-js-direct-editing', function() {
         var shapeWithLabel = {
           id: 's1',
           x: 20, y: 10, width: 60, height: 50,
-          label: 'FOO'
+          label: 'FOO',
+          options: {scale : canvas.zoom() + ''}
         };
         canvas.addShape(shapeWithLabel);
 
@@ -183,7 +188,8 @@ describe('diagram-js-direct-editing', function() {
         var shapeWithLabel = {
           id: 's1',
           x: 20, y: 10, width: 60, height: 50,
-          label: 'FOO'
+          label: 'FOO',
+          options: {scale : canvas.zoom() + ''}
         };
         canvas.addShape(shapeWithLabel);
 
@@ -212,7 +218,8 @@ describe('diagram-js-direct-editing', function() {
         var shapeWithLabel = {
           id: 's1',
           x: 20, y: 10, width: 60, height: 50,
-          label: 'FOO'
+          label: 'FOO',
+          options: {scale : canvas.zoom() + ''}
         };
 
         canvas.addShape(shapeWithLabel);
@@ -240,7 +247,8 @@ describe('diagram-js-direct-editing', function() {
         var shapeWithLabel = {
           id: 's1',
           x: 20, y: 10, width: 60, height: 50,
-          label: 'FOO'
+          label: 'FOO',
+          options: {scale : canvas.zoom() + ''}
         };
 
         canvas.addShape(shapeWithLabel);
@@ -270,7 +278,8 @@ describe('diagram-js-direct-editing', function() {
         var shape = {
           id: 's1',
           x: 20, y: 10, width: 60, height: 50,
-          label: 'FOO'
+          label: 'FOO',
+          options: {scale : canvas.zoom() + ''}
         };
         canvas.addShape(shape);
 
@@ -289,7 +298,8 @@ describe('diagram-js-direct-editing', function() {
         var shape = {
           id: 's1',
           x: 20, y: 10, width: 60, height: 50,
-          label: 'FOO'
+          label: 'FOO',
+          options: {scale : canvas.zoom() + ''}
         };
         canvas.addShape(shape);
 
